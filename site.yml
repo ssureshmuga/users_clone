@@ -1,0 +1,5 @@
+---
+- name: test role invoking
+  hosts: prod
+  roles:
+    - student.testcollection.mymotd
